@@ -1,0 +1,6 @@
+4
+Salatteller
+45:Bauernsalat:Tomaten, Gurken, Zwiebeln, Schafskäse & Saziki:11.40
+46:Großer gemischter Salatteller:mit gegrillter Hähnchenbrust:14.40
+48:Großer gemischter Salatteller:mit Thunfisch und Ei:14.20
+49:Großer gemischter Salatteller:mit gebratenen Champignons:13.40

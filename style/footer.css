@@ -1,0 +1,70 @@
+/* CSS Document */
+footer {
+    padding: 20px 0;
+    color: rgba(30,30,30,0.3);
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.footer-links li {
+    display: inline-block;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ecf0f1;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #89656a;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+}
+
+.social-media a img {
+    width: 24px;
+    height: 24px;
+    filter: invert(100%); /* Ensures icons appear in white */
+    transition: filter 0.3s;
+}
+
+.social-media a img:hover {
+    filter: invert(75%) sepia(100%) hue-rotate(45deg) saturate(200%);
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column; /* Elemente werden untereinander angezeigt */
+        text-align: center;
+        gap: 15px; /* Fügt einen Abstand zwischen den Elementen hinzu */
+    }
+
+    .footer-links {
+        flex-direction: column; /* Links untereinander anzeigen */
+        gap: 10px; /* Weniger Abstand zwischen den Links in der mobilen Ansicht */
+    }
+
+    .social-media {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}

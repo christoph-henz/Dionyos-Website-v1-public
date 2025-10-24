@@ -1,0 +1,9 @@
+7
+Pizza
+1:Margarita:Tomatensoße, Käse<sub>[1]</sub>:8.30
+2:Salami:Tomatensoße, Käse<sub>[1]</sub>, Salami<sub>[3/5]</sub>:8.60
+3:Spezial:Tomatensoße, Käse<sub>[1]</sub>, Salami<sub>[3/5]</sub>, Schinken<sub>[3/5]</sub>, Paprika, Zwiebeln, Pilze:10.40
+4:Schinken Schafskäse:Tomatensoße, Käse<sub>[1]</sub>, Schafskäse, Schinken<sub>[3/5]</sub>, Zwiebeln:11.30
+5:Thunfisch:Tomatensoße, Käse<sub>[1]</sub>, Thunfisch, Artischocken, Zwiebeln, Kapern:11.40
+6:Gyros:Tomatensoße, Käse<sub>[1]</sub>, Gyros, Schafskäse, Zwiebeln:12.40
+7:Veggie:Tomatensoße, Käse<sub>[1]</sub>, Pilze, Paprika, Zwiebeln, Mais & Tomaten:10.40

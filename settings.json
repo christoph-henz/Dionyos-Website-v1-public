@@ -1,0 +1,13 @@
+{
+  "settings":
+  {
+    "deliverOn": false,
+    "deliverLimit": 40,
+    "isOpen": true,
+    "openminS": 11,
+    "openmaxS": 21,
+    "openmin": 17,
+    "openmax": 21
+
+  }
+}

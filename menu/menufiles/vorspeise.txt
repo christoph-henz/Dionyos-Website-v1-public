@@ -1,0 +1,23 @@
+11
+Meze (kleine Tapas Vorspeisen)
+11:Peperoni:mit Knoblauch:3.10
+12:Schwarze Oliven:& Knoblauch aus Kalamata:3.10
+13:Grüne Oliven:gefüllt mit Paprika & Knoblauch:3.10
+14:Original Griech. Schafskäse::3.80
+15:Melitzanosalata:Auberginenpaste & Knoblauch:3.80
+16:Saziki:Griech. Joghurt mit Gurken & Knoblauch:3.80
+17:Tirokafteri:Schafskäsepaste scharf & Knoblauch:3.80
+18:Taramosalata:Fischrogencreme:3.80
+19:Sardellen:eingelegt & gesalzen:3.90
+20:Kalte Riesenbohnen:mit Paprika & Knoblauch:3.70
+21:Oktupussalat:eingelegt in Öl-Essig:4.20
+26:Gegrillte Peperoni:mit Knoblauch:4.20
+27:Gegrillte Aubergine:natur mit Olivenöl:3.80
+28:Gegrillte Zucchini:natur mit Olivenöl:3.80
+29:Gegrillte Champignons:natur mit Olivenöl:3.80
+30:Dolmadakia:Weinblätter mit Reisfüllung:3.80
+31:Bruschetta:mit Tomaten-Knoblauch Aufstrich:3.90
+32:Knoblauchbrot:mit mediterranen Gewürzen:3.90
+33:Saganaki:panierter Mischkäse:4.20
+34:Pitta:gegrilltes Fladenbrot:3.20
+52:Weißbrot::1.90

@@ -1,0 +1,15 @@
+7
+Spezialitäten vom Grill & Ofen
+50:Argentinisches Rumpsteak:(ca. 220 g Rohgewicht) gegrillt mit Kräuterbutter dazu Bohnen & Steakhouse-Pommes:24.40
+51:Rinderleber:gebraten mit Zwiebeln & Butter-Reis:14.20
+54:Lammspieß:gegrillter Lammrücken mit Knoblauch, Bohnen & Steakhouse-Pommes:21.40
+55:Paidakia:gegrillte Lammkoteletts mit Knoblauch, Bohnen & Steakhouse-Pommes:21.40
+56:Lammteller:gegrillte Lammkoteletts & Lammrücken mit Knoblauch, Bohnen & Steakhouse-Pommes:21.60
+57:Lammhaxe:aus dem Ofen mit Stifado-Zwiebeln & Brot:19.20
+65:Gyros:vom Schwein mit Bohnen, Steakhouse-Pommes & Saziki:14.50
+66:Gyros:vom Schwein in Metaxasoße & Pilzen, aus dem Ofen mit Käse überbacken & Steakhouse-Pommes:15.50
+67:Riganato:Schweinesteak in Metaxasoße & Pilzen, aus dem Ofen mit Käse überbacken & Steakhouse-Pommes:15.80
+69:Bifteki:gegrilltes Schweinehacksteak gefüllt mit Schafskäse dazu Bohnen & Steakhouse-Pommes:15.60
+71:Suwlakia:gegrillte Schweinespieße dazu Bohnen & Steakhouse-Pommes:14.60
+72:Gegrillter Bauernspieß:mageres Schweinefleisch dazu Bohnen & Steakhouse-Pommes:17.50
+73:Hähnchenspieße:mit Bohnen & Steakhouse-Pommes:15.60

@@ -1,0 +1,149 @@
+.content-box{
+	font-size: 0.9em;
+	width: 100%;
+}
+
+.content-nav{
+	display: flex;
+}
+
+.content-item{
+	padding: 15px;
+	border-left: 1px solid #89656a;
+	cursor: pointer;
+	font-size: 0.9em;
+}
+
+.content-item:hover{
+	transition: color 0.3s;
+	color: #89656a;
+}
+.item-active{
+	color: #89656a;
+}
+
+.content-display{
+	max-height: 700px;
+	overflow-y: auto;
+
+}
+
+.content-display-container{
+	text-align: left;
+
+}
+
+p.content-display-font{
+	margin:0;
+	display: block;
+	vertical-align: middle;
+	font-size: 14pt;
+}
+
+ ul{
+	list-style: square;
+	
+}
+
+.content-active{
+	opacity: 1;
+	height: auto;
+	overflow: visible;
+	transition: opacity .5s ease-in-out;
+}
+.content-inactive{
+	opacity: 0;
+	height: 0px;
+	overflow: hidden;
+}
+
+.info-grid-container{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+
+}
+
+#dionysos-info img{
+	max-width: 100%;	
+}
+
+
+.info-text1{
+	padding: 0 20px 0 20px;
+}
+
+.info-img1{
+
+}
+.info-text2{
+
+	padding: 0 20px 0 20px;
+	
+	
+}
+
+.info-img2{
+
+}
+
+.info-text1, .info-text2 ul li{
+	list-style: square;
+}
+.flex-row{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+}
+.flex-column{
+	flex: 50;
+}
+
+.see-more{
+	display: none;
+}
+
+@media only screen and (max-width: 1000px){
+	.content-box{
+		font-size: 0.7em;
+	}
+	.foldable{
+		max-height: 15em;
+		overflow-y: hidden;
+		margin-bottom: 4em;
+	}
+
+	.fold{
+		pointer-events: none;
+	}
+
+	.unfold{
+		pointer-events: all;
+	}
+
+	.see-more{
+		display: block;
+		height: 4em;
+		line-height: 4em;
+		color: navajowhite;
+		position: relative;
+		bottom: -11em;
+		z-index: 2;
+		background: rgb(33,33,33);
+		background: linear-gradient(0deg, rgba(33,33,33,1) 0%, rgba(33,33,33,0.969625350140056) 37%, rgba(33,33,33,0.8799894957983193) 63%, rgba(33,33,33,0.7231267507002801) 86%, rgba(33,33,33,0) 100%);		text-align: center;
+
+	}
+
+	.see-more a{
+		text-decoration: none;
+		color: white;
+	}
+}
+@media (max-width: 766px){
+
+}
+
+/* CSS Document */
+
+
+

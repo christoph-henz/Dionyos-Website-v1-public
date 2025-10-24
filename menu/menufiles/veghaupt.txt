@@ -1,0 +1,8 @@
+6
+Vegetarische Hauptspeisen
+40:Saganaki Natur:Mischkäse im Steintopf dazu Tomate, Peperoni & Knoblauch:10.90
+41:Saganaki Paniert:Mischkäse im Steintopf dazu Peperoni & Knoblauch:11.20
+42:Pikilia:panierte Aubergine & Zucchini dazu Peperoni, Oliven, Saganaki & Saziki:12.50
+43:Gigantes:Riesenbohnen im Steintopf mit Paprika, Schafskäse und Knoblauch:10.90
+44.a:Juwetzi:griechische Nudeln mit Tomatensoße, Schafskäse und Edamer Käse überbacken:11.50
+44.b:Juwetzi:griechische Nudeln mit Metaxasoße, Schafskäse und Edamer Käse überbacken:11.50

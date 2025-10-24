@@ -1,0 +1,191 @@
+/* CSS Document */
+
+/* CSS Document */
+
+
+/*
+	Menu-Article
+*/
+.menu-item{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 0.2fr 1fr 1fr 0.5fr 0.1fr 0.2fr;
+	grid-template-areas: "number name name price num buttonshop";
+	height: auto;
+	font-size: 1.5em;
+	color: antiquewhite;
+	margin: 15px;
+}
+
+.menu-item-number{
+	grid-area: number;
+
+}
+
+.menu-item-name{
+	grid-area: name;
+
+}
+.name-highlight{
+	font-weight: 800;
+}
+
+.menu-item-price{
+	grid-area: price;
+	margin-right: 20px;
+	text-align: right;
+}
+
+.into-shoppingbag img{
+	max-width: 100%;
+	width: 2em;
+}
+.into-shoppingbag button{
+	background: none;
+	border: none;
+	cursor: pointer;
+	text-align: left;
+}
+
+.into-shoppingbag button:hover img {
+	transition: 0.2s ease-in-out;
+	width: 2.1em;
+}
+
+
+/*
+	Menu-Site
+*/
+.menu-site{
+	padding: 10px 10px 10px 10px;
+	width: 100%;
+	grid-area: md;
+
+}
+.menu-site span{
+	display: inline-block;
+}
+.menu-site img{
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+	max-height: 100%;
+	vertical-align: middle;
+
+}
+
+.menu-site-header{
+	text-align: center;
+	width: 100%;
+
+}
+.menu-site-active{
+	display: block;
+	overflow: visible;
+
+
+}
+.menu-site-inactive{
+	display: none;
+
+	overflow: hidden;
+}
+
+/*
+	MENU
+*/
+.menu-display{
+	display: grid;
+	grid-template-areas: "lb md md md md md md rb";
+	grid-template-columns: 0.21fr 1fr 1fr 1fr 1fr 1fr 1fr 0.2fr;
+	margin: 0 auto;
+	width: 100%;
+	min-height: 900px;
+	height: 900px;
+	max-height: 900px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+
+	background-repeat: repeat-x repeat-y;
+	border: 2px solid #212121;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+}
+
+.num-articles{
+	grid-area: num;
+}
+.into-shoppingbag{
+	grid-area: buttonshop;
+	border: none;
+	margin: 0;
+	padding: 0;
+	width: auto;
+	overflow: visible;
+
+	background: transparent;
+
+	/* inherit font & color from ancestor */
+	color: inherit;
+	font: inherit;
+
+	/* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+	line-height: normal;
+
+	/* Corrects font smoothing for webkit */
+	-webkit-font-smoothing: inherit;
+	-moz-osx-font-smoothing: inherit;
+
+	/* Corrects inability to style clickable `input` types in iOS */
+	-webkit-appearance: none;
+}
+.menu-wrapper{
+	width: 100%;
+	margin: 0 auto;
+	grid-area: menuarea
+}
+
+
+
+
+#btnl{
+	grid-area: lb;
+
+}
+#btnl button{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#btnr button{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+#btnr{
+	grid-area: rb;
+}
+
+.btn-menu{
+	background-color: #2d2d2d;
+	border: none;
+}
+.btn-menu img{
+	max-width: 100%;
+}
+.btn-menu:hover{
+	background-color: #484848;
+}
+
+#menu-legend{
+	font-size: 8pt;
+}
+
+@media (max-width: 766px){
+	.menu-site{
+		font-size: 0.5em!important;
+	}
+}
+

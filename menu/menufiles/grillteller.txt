@@ -1,0 +1,6 @@
+5
+Unsere Grillteller
+59:Naki Teller:Gyros, Suwlaki, Suzukaki dazu Bohnen, Saziki & Steakhouse-Pommes:17.80
+60:Vinka Teller:Gyros, Suwlaki, Suzukaki, Hänchenspieß dazu Bohnen, Saziki & Steakhouse-Pommes:19.80
+61:Athina Teller:Gyros, Suwlaki, Suzukaki, Leber dazu Bohnen, Saziki & Steakhouse-Pommes:19.80
+62:Dionys Teller:Gyros, Suwlaki, Bifteki, Lammkotelett dazu Bohnen, Saziki & Steakhouse-Pommes:21.60

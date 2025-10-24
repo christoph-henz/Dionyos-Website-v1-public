@@ -1,0 +1,5 @@
+3
+Nachspeisen
+81:Joghurt:mit Honig und Walnüssen:4.90
+82:Galaktobureko:warmer Grießauflauf im Blätterteig:6.80
+83:Warmes Schokoladen Souffle:mit Vanille-Eis und Sahne:5.90

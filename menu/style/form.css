@@ -1,0 +1,17 @@
+
+.form-group{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.form-group label{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	width: 100%;
+	color: antiquewhite;
+}
+
+.form-check label{
+	display: inline;
+}

@@ -1,0 +1,139 @@
+/* CSS Document */
+
+body{
+	margin:0;
+	padding:0;
+}
+/*
+	Menu-Article
+*/
+.menu-item{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 0.2fr 1fr 1fr 0.2fr;
+	grid-template-areas: "number name name price";
+	height: auto;
+	font-size: 0.9em;
+	margin: 15px;
+}
+
+.menu-item-number{
+	grid-area: number;
+	font-size: 18pt;
+}
+
+.menu-item-name{
+	grid-area: name;
+	font-size: 16pt;
+
+}
+.name-highlight{
+	font-weight: 800;
+	font-size: 18pt;
+}
+
+.menu-item-price{
+	grid-area: price;
+	margin-right: 20px;
+	text-align: right;
+	font-size: 18pt;
+}
+
+/*
+	Menu-Site
+*/
+.menu-site{
+	padding: 10px 10px 10px 10px;
+	grid-area: md;
+
+}
+.menu-site span{
+	display: inline-block;
+}
+.menu-site img{
+	display: block;
+	margin: 0 auto;
+	max-width: 50%;
+	max-height: 100%;
+	vertical-align: middle;
+}
+
+.menu-site-header{
+	text-align: center;
+	width: 100%;
+
+}
+.menu-site-active{
+	opacity: 1;
+
+	overflow: visible;
+	height: auto;
+
+	transition: opacity .5s ease-in-out;
+
+}
+.menu-site-inactive{
+
+	height: 0px;
+	overflow: hidden;
+	opacity: 0;
+}
+
+/*
+	MENU
+*/
+.menu-display{
+
+	display: grid;
+	grid-template-areas: "lb md md md md md md rb";
+	grid-template-columns: 25px 1fr 1fr 1fr 1fr 1fr 1fr 25px;
+	margin: 0 auto;
+	width: 100%;
+	min-height: 900px;
+	height: 900px;
+	max-height: 900px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	background: url(../../img/bg/684e8390.png) repeat-x repeat-y;
+	border: 2px solid #212121;
+	-moz-box-shadow:    inset 0 0 10px #000000;
+	-webkit-box-shadow: inset 0 0 10px #000000;
+	box-shadow:         inset 0 0 10px #000000;
+}
+
+#btnl{
+	grid-area: lb;
+	cursor: pointer;
+}
+#btnl button{
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+#btnr button{
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+#btnr{
+	grid-area: rb;
+
+}
+
+.btn-menu{
+	background-color: #2d2d2d;
+	border: none;
+}
+.btn-menu img{
+	max-width: 100%;
+}
+.btn-menu:hover{
+	background-color: #484848;
+}
+
+#menu-legend{
+	font-size: 8pt;
+}

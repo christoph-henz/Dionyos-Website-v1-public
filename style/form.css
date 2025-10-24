@@ -1,0 +1,92 @@
+
+.form-group{
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.form-group label{
+	display: block;
+	font-size: 1.1em;
+	margin-bottom: 5px;
+	width: 100%;
+	color: antiquewhite;
+}
+
+.form-check label{
+	display: inline;
+}
+
+.del-sec{
+	flex: 50;
+}
+.pickup-sec{
+	flex: 50;
+}
+.visible{
+	display: block!important;
+}
+.invisible{
+	display: none!important;
+}
+
+.form-inner-sec{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+#overview{
+	margin: 0 auto;
+	padding: 2em;
+	border: #2d2d2d double 3px;
+	background: #212121;
+}
+.delivery-elem{
+	display: none;
+}
+input[type=text]{
+	height: 2em;
+}
+
+input[type=email]{
+	height: 2em;
+}
+
+input[type=submit]{
+	height: 2em;
+	color: antiquewhite;
+	font-weight: bolder;
+	background: #444444;
+	border: none;
+}
+input[type=button]{
+	height: 3em;
+	width: 6em;
+	color: antiquewhite;
+	font-weight: bolder;
+	background: #444444;
+	border: none;
+}
+
+select{
+	height: 2em;
+}
+textarea{
+	min-width: 25em;
+	height: 10em;
+	min-height: 10em;
+	resize: none;
+	overflow-y: auto;
+}
+
+@media (max-width: 766px){
+	#overview{
+		padding: 1em;
+	}
+	#content-wrapper-alt{
+		margin: 0;
+		padding: 1em;
+		font-size: 0.9em;
+	}
+}

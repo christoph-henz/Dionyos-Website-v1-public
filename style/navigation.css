@@ -1,0 +1,73 @@
+/* CSS Document */
+nav{
+	/*font-family: 'Italianno', cursive;*/
+	/*font-family: 'Cinzel', serif;*/
+	font-family: 'Bebas Neue', cursive;
+	font-size: 1.5em;
+	text-align: center;
+	color: #fff8ed;
+	background-repeat: repeat;
+
+	margin-left: 1em;
+	margin-right: 1em;
+
+	-moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+	
+}
+nav h2{
+	width: 70%;
+	margin: 0 auto;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	border-top: 3px solid #fff8ed;
+	border-bottom: 3px solid #fff8ed;
+}
+nav ul li{
+	
+	list-style: none;
+	margin-bottom: 50px;
+	font-size: 1.2em;
+	
+}
+nav li span{
+	position: relative;
+	left: -20px;
+}
+nav li a{
+	text-decoration: none;
+	color: inherit;
+	display: block;
+	position: relative;
+}
+
+nav li a:after{
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+ 
+  margin: 0 auto;
+  background: #fff8ed;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s, background 0.3s;
+  width: 0;
+}
+nav li a:hover{
+	
+	transition: color 0.3s;
+}
+nav li a:hover:after{
+	background: #89656a; 
+	width: 50%; 
+  	left: 0; 
+	
+}
+.nav-item{
+	transition: color 0.5s ease;
+}
+.nav-item.nav-item-active{
+	color: #89656a!important;
+}
+

@@ -1,0 +1,5 @@
+3
+Beilagensalate
+22:Gemischter Beilagensalat::4.20
+23:Krautsalat eingelegt::3.90
+24:Bauernsalat:Tomate, Gurke, Schafskäse, Zwiebeln:5.20
